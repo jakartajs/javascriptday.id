@@ -1,0 +1,73 @@
+{
+  "name": "gatsby-starter-typescript-plus",
+  "description": "A starter kit for TypeScript-based Gatsby projects with sensible defaults.",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Resi Respati <resir014@gmail.com>",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "rimraf public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"src/**/*.{ts,tsx,md}\"",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "start": "npm run dev",
+    "test": "npm run type-check && npm run lint",
+    "type-check": "tsc"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "babel-plugin-styled-components": "^1.10.0",
+    "classnames": "^2.2.6",
+    "gatsby": "^2.3.33",
+    "gatsby-image": "^2.0.40",
+    "gatsby-plugin-canonical-urls": "^2.0.12",
+    "gatsby-plugin-emotion": "^4.0.6",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-plugin-typescript": "^2.0.13",
+    "gatsby-remark-copy-linked-files": "^2.0.12",
+    "gatsby-remark-images": "^3.0.11",
+    "gatsby-remark-prismjs": "^3.2.8",
+    "gatsby-remark-responsive-iframe": "^2.1.1",
+    "gatsby-remark-smartypants": "^2.0.9",
+    "gatsby-source-filesystem": "^2.0.32",
+    "gatsby-transformer-json": "^2.1.11",
+    "gatsby-transformer-remark": "^2.3.12",
+    "gatsby-transformer-sharp": "^2.1.18",
+    "modern-normalize": "^0.5.0",
+    "normalize.css": "^8.0.1",
+    "polished": "^3.2.0",
+    "prism-themes": "^1.1.0",
+    "prismjs": "^1.16.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.7",
+    "@types/node": "^11.13.8",
+    "@types/react": "^16.8.15",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-helmet": "^5.0.8",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^1.7.0",
+    "eslint": "^5.16.0",
+    "eslint-config-blvd": "^0.1.1",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.17.0",
+    "rimraf": "^2.6.3"
+  }
+}

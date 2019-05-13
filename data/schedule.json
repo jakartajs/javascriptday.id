@@ -1,0 +1,13 @@
+{
+  "conferenceDays": [
+    {
+      "date": "2019-09-14",
+      "schedule": [
+        {
+          "time": "09.00 - 10.00",
+          "speaker": "example-speaker"
+        }
+      ]
+    }
+  ]
+}

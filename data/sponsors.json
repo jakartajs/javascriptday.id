@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Company 1",
+    "type": "platinum",
+    "logo": "placeholder-672x326.png",
+    "url": "https://www.jakartajs.org"
+  },
+  {
+    "name": "Company 2",
+    "type": "gold",
+    "logo": "placeholder-672x326.png",
+    "url": "https://www.jakartajs.org"
+  },
+  {
+    "name": "Company 3",
+    "type": "silver",
+    "logo": "placeholder-672x326.png",
+    "url": "https://www.jakartajs.org"
+  },
+  {
+    "name": "Company 4",
+    "type": "silver",
+    "logo": "placeholder-672x326.png",
+    "url": "https://www.jakartajs.org"
+  }
+]

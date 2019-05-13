@@ -29,7 +29,7 @@ export default `
   }
 
   a {
-    color: ${colors.brand};
+    color: ${colors.red01};
     text-decoration: none;
 
     &:hover,
@@ -55,7 +55,7 @@ export default `
   table {
     width: 100%;
     margin-bottom: 1rem;
-    border: 1px solid ${colors.ui.light};
+    border: 1px solid ${colors.grey04};
     font-size: 85%;
     border-collapse: collapse;
   }
@@ -63,7 +63,7 @@ export default `
   td,
   th {
     padding: .25rem .5rem;
-    border: 1px solid ${colors.ui.light};
+    border: 1px solid ${colors.grey04};
   }
 
   th {
@@ -74,10 +74,10 @@ export default `
     tr {
       &:nth-of-type(odd) {
         td {
-          background-color: ${colors.ui.whisper};
+          background-color: ${colors.grey05};
         }
         tr {
-          background-color: ${colors.ui.whisper};
+          background-color: ${colors.grey05};
         }
       }
     }
@@ -87,7 +87,7 @@ export default `
     margin-top: 1.414rem;
     margin-bottom: .5rem;
     color: ${colors.black};
-    font-weight: 600;
+    font-weight: 500;
     line-height: ${dimensions.lineHeight.heading};
     text-rendering: optimizeLegibility;
   }
@@ -137,14 +137,14 @@ export default `
     position: relative;
     margin: 1.5rem 0;
     border: 0;
-    border-top: 1px solid ${colors.ui.light};
+    border-top: 1px solid ${colors.grey05};
   }
 
   blockquote {
     margin: .8rem 0;
     padding: .5rem 1rem;
-    border-left: .25rem solid ${colors.ui.light};
-    color: ${colors.gray.calm};
+    border-left: .25rem solid ${colors.grey03};
+    color: ${colors.grey03};
 
     p {
       &:last-child {

@@ -1,13 +1,11 @@
-'use strict'
-
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-starter-typescript-plus',
+    title: 'JSDay Indonesia 2019',
     description: 'A starter kit for TypeScript-based Gatsby projects with sensible defaults.',
-    siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
+    siteUrl: 'https://javascriptday.id',
     author: {
-      name: 'Resi Respati',
-      url: 'https://twitter.com/resir014',
+      name: 'JakartaJS',
+      url: 'https://twitter.com/jakartajs',
       email: 'resir014@gmail.com'
     }
   },
@@ -16,7 +14,14 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'content',
-        path: `${__dirname}/src/content`
+        path: `${__dirname}/content`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'data',
+        path: `${__dirname}/data`
       }
     },
     {
@@ -47,7 +52,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com'
+        siteUrl: 'https://javascriptday.id'
       }
     },
     'gatsby-plugin-emotion',

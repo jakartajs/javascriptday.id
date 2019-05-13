@@ -1,6 +1,17 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
+
+/**
+ * Implement Gatsby's Node APIs in this file.
+ *
+ * See: https://www.gatsbyjs.org/docs/node-apis/
+ */
+
+/* eslint-disable strict, no-console */
+
 'use strict'
 
 const path = require('path')
+const { createFilePath } = require('gatsby-source-filesystem')
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
@@ -10,31 +21,29 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   // through `createNodeField` so that the fields still exist and GraphQL won't
   // trip up. An empty string is still required in replacement to `null`.
 
-  switch (node.internal.type) {
-    case 'MarkdownRemark': {
-      const { permalink, layout } = node.frontmatter
-      const { relativePath } = getNode(node.parent)
+  if (node.internal.type === 'MarkdownRemark') {
+    const { permalink, layout } = node.frontmatter
+    const relativePath = createFilePath({ node, getNode, basePath: 'content' })
 
-      let slug = permalink
+    let slug = permalink
 
-      if (!slug) {
-        slug = `/${relativePath.replace('.md', '')}/`
-      }
-
-      // Used to generate URL to view this content.
-      createNodeField({
-        node,
-        name: 'slug',
-        value: slug || ''
-      })
-
-      // Used to determine a page layout.
-      createNodeField({
-        node,
-        name: 'layout',
-        value: layout || ''
-      })
+    if (!slug) {
+      slug = relativePath
     }
+
+    // Used to generate URL to view this content.
+    createNodeField({
+      node,
+      name: 'slug',
+      value: slug || ''
+    })
+
+    // Used to determine a page layout.
+    createNodeField({
+      node,
+      name: 'layout',
+      value: layout || ''
+    })
   }
 }
 

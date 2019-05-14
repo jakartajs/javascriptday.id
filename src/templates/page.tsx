@@ -7,6 +7,7 @@ import Page from '../components/layout/Page'
 import Container from '../components/layout/Container'
 import MarkdownContent from '../components/layout/MarkdownContent'
 import DefaultLayout from '../components/layout/DefaultLayout'
+import PageHeading from '../components/layout/PageHeading'
 
 interface PageTemplateProps {
   data: {
@@ -46,8 +47,7 @@ export default function PageTemplate({ data }: PageTemplateProps) {
       <Page>
         <Inner>
           <Container>
-            <h1>{post.frontmatter.title}</h1>
-            {/* eslint-disable-next-line react/no-danger */}
+            <PageHeading>{post.frontmatter.title}</PageHeading>
             <MarkdownContent html={post.html} />
           </Container>
         </Inner>

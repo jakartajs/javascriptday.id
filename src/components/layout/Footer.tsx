@@ -8,9 +8,9 @@ import Container from './Container'
 const Root = styled('footer')`
   position: relative;
   margin-top: 24px;
-  padding: 24px 24px 204px;
+  padding: 24px 24px 144px;
   background: url('/images/mountains.png') bottom center no-repeat;
-  background-size: auto 180px;
+  background-size: auto 120px;
 `
 
 const InnerTop = styled('section')`

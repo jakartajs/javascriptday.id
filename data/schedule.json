@@ -1,11 +1,104 @@
 {
+  "lightningTalks": ["<strong>Speaker Name</strong> - Lightning Talk Title"],
   "conferenceDays": [
     {
       "date": "2019-09-14",
       "schedule": [
         {
-          "time": "09.00 - 10.00",
-          "speaker": "example-speaker"
+          "time": "08.30 - 09.30",
+          "event": "Registration + Snack"
+        },
+        {
+          "time": "09.30 - 09.45",
+          "event": "Opening"
+        },
+        {
+          "time": "09.45 - 10.00",
+          "event": "Opening Gold/Platinum"
+        },
+        {
+          "time": "10.00 - 10.05",
+          "event": "Intermezzo"
+        },
+        {
+          "time": "10.05 - 10.55",
+          "event": "1st Session (Keynote session #1)"
+        },
+        {
+          "time": "10.00 - 10.05",
+          "event": "Intermezzo"
+        },
+        {
+          "time": "11.00 - 11.30",
+          "event": "2nd Session"
+        },
+        {
+          "time": "11.30 - 11.35",
+          "event": "Intermezzo"
+        },
+        {
+          "time": "11.35 - 12.05",
+          "event": "3rd Session"
+        },
+        {
+          "time": "12.05 - 12.10",
+          "event": "Intermezzo"
+        },
+        {
+          "time": "12.10 - 13.00",
+          "event": "Lunch, networking"
+        },
+        {
+          "time": "13.00 - 13.05",
+          "event": "Sponsor Announcement"
+        },
+        {
+          "time": "13.05 - 13.50",
+          "event": "4th Session (Keynote session #2)"
+        },
+        {
+          "time": "13.50 - 13.55",
+          "event": "Intermezzo"
+        },
+        {
+          "time": "13.55 - 14.25",
+          "event": "5th Session"
+        },
+        {
+          "time": "14.25 - 15.00",
+          "event": "Intermezzo"
+        },
+        {
+          "time": "15.00 - 15.30",
+          "event": "6th Session"
+        },
+        {
+          "time": "15.30 - 15.35",
+          "event": "Intermezzo"
+        },
+        {
+          "time": "15.35 - 15.50",
+          "event": "Coffee break, networking"
+        },
+        {
+          "time": "15.50 - 16.50",
+          "event": "Lightning Talks"
+        },
+        {
+          "time": "16.50 - 17.35",
+          "event": "7th Session (Keynote session #3)"
+        },
+        {
+          "time": "17.35 - 17.40",
+          "event": "Intermezzo"
+        },
+        {
+          "time": "17.40 - 17.55",
+          "event": "Closing ceremony"
+        },
+        {
+          "time": "17.55 - 19.00",
+          "event": "Networking"
         }
       ]
     }

@@ -3,7 +3,7 @@ import { Global, css } from '@emotion/core'
 import styled from '@emotion/styled'
 import normalize from '../../styles/normalize'
 
-const StyledLayoutRoot = styled.div`
+const StyledLayoutRoot = styled('div')`
   display: flex;
   flex-direction: column;
   min-height: 100vh;

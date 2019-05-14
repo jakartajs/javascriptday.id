@@ -17,7 +17,7 @@ const MarkdownContent: React.FC<MarkdownContentProps> = ({ html }) => (
 
 export default MarkdownContent
 
-const Root = styled.div`
+const Root = styled('div')`
   color: ${colors.grey01};
 
   h1,

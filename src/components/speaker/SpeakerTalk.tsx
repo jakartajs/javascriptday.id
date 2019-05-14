@@ -20,11 +20,11 @@ const SpeakerTalk: React.FC<SpeakerTalkProps> = ({ title, html }) => (
 
 export default SpeakerTalk
 
-const Root = styled.section`
+const Root = styled('section')`
   margin: 2.5rem 0 3.5rem;
 `
 
-const Inner = styled.div`
+const Inner = styled('div')`
   display: block;
   margin: 24px 0;
 
@@ -37,7 +37,7 @@ const Inner = styled.div`
   }
 `
 
-const Title = styled.h2`
+const Title = styled('h2')`
   margin-top: 0;
   margin-bottom: 24px;
   text-align: center;

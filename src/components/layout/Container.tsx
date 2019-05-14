@@ -4,7 +4,7 @@ import styled from '@emotion/styled'
 import { widths } from '../../styles/variables'
 import { getEmSize } from '../../styles/mixins'
 
-const StyledContainer = styled.div`
+const StyledContainer = styled('div')`
   position: relative;
   margin-left: auto;
   margin-right: auto;

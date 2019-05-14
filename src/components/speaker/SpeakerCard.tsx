@@ -26,7 +26,7 @@ SpeakerCard.defaultProps = {
 
 export default SpeakerCard
 
-const Root = styled.header`
+const Root = styled('header')`
   margin-bottom: 2rem;
   text-align: center;
 
@@ -41,14 +41,14 @@ const Root = styled.header`
   }
 `
 
-const Inner = styled.div``
+const Inner = styled('div')``
 
-const Title = styled.h1`
+const Title = styled('h1')`
   margin: 0;
   font-weight: 300;
 `
 
-const Subtitle = styled.p`
+const Subtitle = styled('p')`
   margin: 0;
   margin-top: 0.5;
   font-weight: 300;

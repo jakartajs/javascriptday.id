@@ -67,13 +67,10 @@ const Footer: React.SFC<ContainerProps> = ({ className }) => (
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/schedule">Schedule</Link>
-          </li>
-          <li>
             <Link to="/">Call for Papers</Link>
           </li>
           <li>
-            <Link to="/">Sponsor Interest</Link>
+            <Link to="/">Code of Conduct</Link>
           </li>
         </ul>
       </InnerBottom>

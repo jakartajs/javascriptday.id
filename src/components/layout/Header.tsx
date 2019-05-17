@@ -80,8 +80,9 @@ const Header: React.SFC<HeaderProps> = ({ title }) => (
       </HomepageLink>
       <HeaderNav>
         <Link to="/about">About</Link>
-        <Link to="/schedule">Schedule</Link>
-        <Link to="/venue">Venue</Link>
+        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+          Call for Papers
+        </a>
         <Link to="/code-of-conduct">Code of Conduct</Link>
       </HeaderNav>
     </HeaderInner>

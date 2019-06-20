@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 
 import Page from '../components/layout/Page'
 import { NodeArray } from '../interfaces/gatsby'
-import { SponsorNode } from '../components/sponsors/SponsorsSection'
+import SponsorsSection, { SponsorNode } from '../components/sponsors/SponsorsSection'
 import HomeSection from '../components/home/HomeSection'
 import DefaultLayout from '../components/layout/DefaultLayout'
 
@@ -15,10 +15,11 @@ interface IndexPageProps {
   }
 }
 
-const IndexPage: React.FC<IndexPageProps> = () => (
+const IndexPage: React.FC<IndexPageProps> = ({ data }) => (
   <DefaultLayout>
     <Page layout="home">
       <HomeSection />
+      <SponsorsSection sponsors={data.sponsors} />
     </Page>
   </DefaultLayout>
 )

@@ -77,8 +77,8 @@ const HomeSection: React.SFC<HomeSection> = ({ className }) => (
     <HomepageBlock>
       <HomepageContent>
         <Logo alt="JSDay Indonesia" src="/images/logo-light.png" />
-        <HomepageSubtitle>14 September 2019</HomepageSubtitle>
-        <HomepageSubtitle>Venue Name</HomepageSubtitle>
+        <HomepageSubtitle>5 October 2019</HomepageSubtitle>
+        <HomepageSubtitle>Hotel Sheraton</HomepageSubtitle>
         <HomepageLinks>
           <li>
             <Link to="/about/">About</Link>

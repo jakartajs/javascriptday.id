@@ -1,25 +1,37 @@
 [
   {
-    "name": "Company 1",
+    "name": "Tokopedia",
     "type": "platinum",
     "logo": "placeholder-672x326.png",
     "url": "https://www.jakartajs.org"
   },
   {
-    "name": "Company 2",
+    "name": "Hacktiv8",
     "type": "gold",
     "logo": "placeholder-672x326.png",
     "url": "https://www.jakartajs.org"
   },
   {
-    "name": "Company 3",
-    "type": "silver",
+    "name": "Ralali",
+    "type": "gold",
     "logo": "placeholder-672x326.png",
     "url": "https://www.jakartajs.org"
   },
   {
-    "name": "Company 4",
-    "type": "silver",
+    "name": "Happy Fresh",
+    "type": "gold",
+    "logo": "placeholder-672x326.png",
+    "url": "https://www.jakartajs.org"
+  },
+  {
+    "name": "Cashbac",
+    "type": "gold",
+    "logo": "placeholder-672x326.png",
+    "url": "https://www.jakartajs.org"
+  },
+  {
+    "name": "Warung Pintar",
+    "type": "gold",
     "logo": "placeholder-672x326.png",
     "url": "https://www.jakartajs.org"
   }

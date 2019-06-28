@@ -2,11 +2,11 @@
 layout: 'speaker'
 title: 'Example Speaker'
 talk: 'Example Talk Title'
-photo: 'placeholder-400.png'
-twitter: 'jakartajs'
-github: 'jakartajs'
-website: 'http://www.jakartajs.org'
-company: 'Company Name'
+photo: 'ariya-hidayat.jpg'
+twitter: 'AriyaHidayat'
+github: 'ariya'
+website: 'https://ariya.io/'
+company: 'HyperJump'
 bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In schola desinis. Duo Reges: constructio interrete. Bonum integritas corporis: misera debilitas. Quasi ego id curem, quid ille aiat aut neget.'
 ---
 

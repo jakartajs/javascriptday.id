@@ -10,6 +10,7 @@ export interface SponsorNode {
   type: string
   logo: string
   url: string
+  background: string
 }
 
 interface SponsorsSectionProps {

@@ -37,6 +37,7 @@ export const pageQuery = graphql`
           type
           logo
           url
+          background
         }
       }
     }

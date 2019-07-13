@@ -3,36 +3,42 @@
     "name": "Tokopedia",
     "type": "platinum",
     "logo": "placeholder-672x326.png",
-    "url": "https://www.tokopedia.com/"
+    "url": "https://www.tokopedia.com/",
+    "backgroundColor": "#8F8F8F"
   },
   {
-    "name": "Hacktiv8",
+    "name": "Feedloop",
     "type": "gold",
-    "logo": "placeholder-672x326.png",
-    "url": "https://hacktiv8.com/"
+    "logo": "feedloop.svg",
+    "url": "https://feedloop.io/",
+    "background": "#FFCF03"
   },
   {
     "name": "Ralali",
     "type": "gold",
     "logo": "placeholder-672x326.png",
-    "url": "https://www.ralali.com/"
+    "url": "https://www.ralali.com/",
+    "background": "#FFCF03"
   },
   {
     "name": "Happy Fresh",
     "type": "gold",
     "logo": "placeholder-672x326.png",
-    "url": "https://www.happyfresh.id/"
+    "url": "https://www.happyfresh.id/",
+    "background": "#FFCF03"
   },
   {
     "name": "Cashbac",
     "type": "gold",
     "logo": "placeholder-672x326.png",
-    "url": "https://cashbac.com/"
+    "url": "https://cashbac.com/",
+    "background": "#FFCF03"
   },
   {
     "name": "Warung Pintar",
     "type": "gold",
     "logo": "placeholder-672x326.png",
-    "url": "https://warungpintar.co.id/"
+    "url": "https://warungpintar.co.id/",
+    "background": "#FFCF03"
   }
 ]

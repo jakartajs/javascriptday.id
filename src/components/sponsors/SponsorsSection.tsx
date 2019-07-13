@@ -41,6 +41,9 @@ const SponsorsSection: React.FC<SponsorsSectionProps> = ({ sponsors }) => (
       {renderSection(sponsors.edges, 'Gold')}
       {renderSection(sponsors.edges, 'Silver')}
     </Inner>
+    <CTAArea>
+      <Button href="#">Become our sponsor</Button>
+    </CTAArea>
   </Root>
 )
 
@@ -48,6 +51,23 @@ export default SponsorsSection
 
 const Root = styled('section')`
   padding: 2.5rem 1.5rem;
+`
+
+const Button = styled('a')`
+  background-color: #EB5559;
+  color: #fff;
+  padding: 1em;
+  border-radius: 0.7em;
+  text-decoration: none;
+  :hover {
+    background-color: #DC7377;
+    text-decoration: none;
+  }
+`
+
+const CTAArea = styled('div')`
+  margin-top: 64px;
+  text-align: center;
 `
 
 const Inner = styled('div')`

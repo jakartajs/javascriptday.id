@@ -24,7 +24,7 @@ Komunitas yang pertama kali melakukan pertemuan di tahun 2013 ini memiliki lebih
 
 ## Organizer
 
-TODO
+![](./images/speakers/temp-organizers.png)
 
 ## Key Highlights
 

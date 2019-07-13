@@ -86,6 +86,9 @@ const HomeSection: React.SFC<HomeSection> = ({ className }) => (
           <li>
             <Link to="/about/">Call for Papers</Link>
           </li>
+          <li>
+            <Link to="/">Become Sponsor</Link>
+          </li>
         </HomepageLinks>
       </HomepageContent>
     </HomepageBlock>

@@ -67,7 +67,7 @@ const Footer: React.SFC<ContainerProps> = ({ className }) => (
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/">Call for Papers</Link>
+            <a href="https://cfp-perkodi.herokuapp.com/events/jsday-2019" target="_blank" rel="noopener noreferrer">Call for Papers</a>
           </li>
           <li>
             <Link to="/">Code of Conduct</Link>

@@ -3,12 +3,47 @@ layout: page
 title: 'About'
 ---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid enim necesse est, tamquam meretricem in matronarum coetum, sic voluptatem in virtutum concilium adducere? Quam illa ardentis amores excitaret sui! Cur tandem? Non pugnem cum homine, cur tantum habeat in natura boni; Sed tu istuc dixti bene <a href="http://loripsum.net/" target="_blank">Latine</a>, parum plane. Commoda autem et incommoda in eo genere sunt, quae praeposita et reiecta diximus; Nam illud vehementer repugnat, eundem beatum esse et multis malis oppressum. Duo Reges: constructio interrete. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris. <b>Contemnit enim disserendi elegantiam, confuse loquitur.</b> <a href="http://loripsum.net/" target="_blank">Ut optime</a>, secundum naturam affectum esse possit.</p>
+## Latar Belakang
 
-<p><a href="http://loripsum.net/" target="_blank">Quid de Platone aut de Democrito loquar?</a> In quo etsi est magnus, tamen nova pleraque et perpauca de moribus. Quonam modo? Sed emolumenta communia esse dicuntur, recte autem facta et peccata non habentur communia. </p>
+Industri startup indonesia berkembang cukup pesat terutama 10 tahun terakhir. Akan tetapi hal ini tidak dapat diimbangi dengan **talenta teknologi yang berkualitas**, sehingga menyebabkan industri tidak bisa berjalan secepat negara-negara lain, karena talenta yang berkualitas, pendidikan tidak sejalan dengan kebutuhan industri, sehingga JakartaJS merasa perlu melakukan sesuatu untuk setidaknya berkontribusi untuk mencari solusi atas hal ini.
 
-<p><b>Haec quo modo conveniant, non sane intellego.</b> At ego quem huic anteponam non audeo dicere; Omnia contraria, quos etiam insanos esse vultis. Sapiens autem semper beatus est et est aliquando in dolore; </p>
+**JSDay** hadir untuk memberikan insight dan inspirasi bagi pengembang aplikasi di Indonesia untuk dapat semakin berkembang dan terinsiprasi untuk mengembangkan aplikasi yang berkualitas tinggi, baik dari sisi performa dan juga kegunaannya.
 
----
+## Objektif
 
-Stay tuned for more info!
+* **Akselerasi** pertumbuhan talenta di Indonesia dengan menghadirkan even dan narasumber berkualitas
+* Membantu talenta untuk menemukan jati dirinya melalui **inspirasi**
+* Memastikan talenta yang ada saat ini mampu **aplikasi** yang **berkualitas**
+* Menyadarkan pengembang aplikasi untuk memperhatikan **performa** dan **optimasi**
+* Mampu menghasilkan **aplikasi yang berkualitas tinggi**, baik dari sisi performa dan juga dari sisi kegunaannya.
+
+## Tentang JakartaJS
+
+**JakartaJS** adalah **komunitas pengguna JavaScript di Jakarta**, Indonesia yang sangat aktif melakukan meetup setiap bulan dengan rata-rata diikuti **100+ pengembang aplikasi** yang antusias.
+Komunitas yang pertama kali melakukan pertemuan di tahun 2013 ini memiliki lebih dari **3.500 anggota** dan hingga saat ini sudah berhasil menyelenggarakan lebih dari **50 kegiatan meetup, workshop** berbayar dan memiliki sebuah wadah untuk melakukan diskusi secara **online**.
+
+## Organizer
+
+![](./images/speakers/temp-organizers.png)
+
+## Key Highlights
+
+* Akan menjadi **konferensi JavaScript pertama** yang diselenggarakan di Indonesia
+* Target peserta **500 orang**
+* Memberikan **dukungan** kepada berbagai **komunitas pengembang aplikasi** di Indonesia
+* Memberikan **ruang untuk berbagi dan berkolaborasi** dengan sesama pengembang aplikasi terutama yang berhubungan dengan JavaScript di Indonesia dan regional Asia Tenggara.
+
+## Why support this event?
+
+* Memiliki kesempatan untuk merekrut talenta pengembang aplikasi dengan menyediakan booth*.
+* Memperkuat branding perusahaan dikalangan pengembang aplikasi.
+* Memiliki kesempatan besar untuk mengisi slot menjadi pembicara ataupun panel diskusi*.
+
+## Bagaimana Cara Mendukung Event Ini?
+
+* Dukungan dalam bentuk uang dengan menjadi **sponsor**. Lebih detil dapat dilihat di bagian [ sponsor ]().
+* Dukungan dalam bentuk lain seperti menyediakan **tiket dan akomodasi** untuk mendatangkan pembicara dan narasumber.
+* Dukungan dalam menyediakan **tempat atau venue** JSDay akan diselenggarakan atau venue.
+* Dukungan dalam menyediakan **makanan, minuman** serta **makanan ringan** (snack) saat acara JSDay berlangsung.
+
+

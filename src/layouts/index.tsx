@@ -40,6 +40,7 @@ const query = graphql`
           type
           logo
           url
+          background
         }
       }
     }

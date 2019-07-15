@@ -43,7 +43,7 @@ const SponsorsSection: React.FC<SponsorsSectionProps> = ({ sponsors }) => (
       {renderSection(sponsors.edges, 'Silver')}
     </Inner>
     <CTAArea>
-      <Button href="#">Become our sponsor</Button>
+      <Button href="https://docs.google.com/forms/d/e/1FAIpQLSdZGVphPcskVQL5J5TWmiovyV0wTPR1zWcCl3xxzXiUT2A3UA/viewform" rel="noopener noreferrer" target="_blank">Become our sponsor</Button>
     </CTAArea>
   </Root>
 )

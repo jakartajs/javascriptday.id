@@ -87,7 +87,7 @@ const HomeSection: React.SFC<HomeSection> = ({ className }) => (
             <a href="https://cfp-perkodi.herokuapp.com/events/jsday-2019" target="_blank" rel="noopener noreferrer">Call for Papers</a>
           </li>
           <li>
-            <Link to="/">Become Sponsor</Link>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZGVphPcskVQL5J5TWmiovyV0wTPR1zWcCl3xxzXiUT2A3UA/viewform" target="_blank" rel="noopener noreferrer">Become Sponsor</a>
           </li>
         </HomepageLinks>
       </HomepageContent>

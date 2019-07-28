@@ -43,7 +43,13 @@ const SponsorsSection: React.FC<SponsorsSectionProps> = ({ sponsors }) => (
       {renderSection(sponsors.edges, 'Silver')}
     </Inner>
     <CTAArea>
-      <Button href="https://docs.google.com/forms/d/e/1FAIpQLSdZGVphPcskVQL5J5TWmiovyV0wTPR1zWcCl3xxzXiUT2A3UA/viewform" rel="noopener noreferrer" target="_blank">Become our sponsor</Button>
+      <Button
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdZGVphPcskVQL5J5TWmiovyV0wTPR1zWcCl3xxzXiUT2A3UA/viewform"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Become our sponsor
+      </Button>
     </CTAArea>
   </Root>
 )
@@ -55,13 +61,13 @@ const Root = styled('section')`
 `
 
 const Button = styled('a')`
-  background-color: #EB5559;
+  background-color: #eb5559;
   color: #fff;
   padding: 1em;
   border-radius: 0.7em;
   text-decoration: none;
   :hover {
-    background-color: #DC7377;
+    background-color: #dc7377;
     text-decoration: none;
   }
 `
@@ -85,7 +91,7 @@ const Inner = styled('div')`
 `
 
 const SectionHeading = styled('h1')`
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 24px;
   text-align: center;
   font-weight: 500;

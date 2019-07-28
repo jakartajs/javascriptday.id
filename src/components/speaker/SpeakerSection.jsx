@@ -1,20 +1,77 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import { widths, colors } from '../../styles/variables';
+import React from 'react'
+import styled from '@emotion/styled'
+import { widths, colors } from '../../styles/variables'
+import SpeakerCard from './SpeakerCard'
+
+const DataSpeaker = [
+  {
+    name: 'Ariya Hidayat',
+    company: 'Technology Leader Hyperjump',
+    photo: '/images/speakers/ariya.jpg',
+    type: 'keynote'
+  },
+  {
+    name: 'Irvin Hutagalung',
+    company: 'Cloud Solution Architect Microsoft',
+    photo: '/images/speakers/irvin.jpeg',
+    type: 'keynote'
+  },
+  {
+    name: 'Yohan Toting',
+    company: 'Co-Organizer Jakarta JS',
+    photo: '/images/speakers/Yohan.jpg',
+    type: 'keynote'
+  },
+  {
+    name: 'Alex Lakatos',
+    company: 'JavaScript Developer Advocate for Nexmo',
+    photo: '/images/speakers/alex.png',
+    type: 'speaker'
+  },
+  {
+    name: 'Jecelyn Yeen',
+    company: 'Developer Expert Web, Angular Google Developer Expert',
+    photo: '/images/speakers/jecelin.jpeg',
+    type: 'speaker'
+  },
+  {
+    name: 'Galih Sahid',
+    company: 'Data Engineer Gojek',
+    photo: '/images/speakers/galuh.jpg',
+    type: 'speaker'
+  },
+  {
+    name: 'Ida Mahiswari',
+    company: 'Recruitment & Employer Branding Lead Shoppe',
+    photo: '/images/speakers/ida_mahes.png',
+    type: 'MC'
+  }
+]
+
+const renderSpeaker = type => {
+  const filter = DataSpeaker.filter(data => data.type === type)
+  return filter.length !== 0 ? (
+    <SpeakerList>
+      {filter.map(data => (
+        <SpeakerCard name={data.name} company={data.company} imageSharp={data.photo}></SpeakerCard>
+      ))}
+    </SpeakerList>
+  ) : null
+}
 
 const SpeakerSection = ({ props }) => {
   return (
     <Root>
       <SpeakerHeading>Speakers</SpeakerHeading>
       <SpeakerSubheading>Keynote Speaker</SpeakerSubheading>
-      <img src={'/images/speakers/temp-keynote.png'} />
+      {renderSpeaker('keynote')}
       <SpeakerSubheading>Confirmed Speaker</SpeakerSubheading>
-      <img src={'/images/speakers/temp-confirmed.png'} />
+      {renderSpeaker('speaker')}
       <SpeakerSubheading>Master of Ceremony</SpeakerSubheading>
-      <img style={{ width: '50%' }} src={'/images/speakers/temp-mc.png'} />
+      {renderSpeaker('MC')}
     </Root>
-  );
-};
+  )
+}
 
 const SpeakerSubheading = styled('h2')`
   margin-top: 0;
@@ -29,7 +86,7 @@ const SpeakerSubheading = styled('h2')`
     font-weight: 400;
     content: '/';
   }
-`;
+`
 
 const SpeakerHeading = styled('h1')`
   margin-top: 0;
@@ -44,13 +101,13 @@ const SpeakerHeading = styled('h1')`
     font-weight: 700;
     content: '/';
   }
-`;
+`
 
 const Root = styled('section')`
   margin: 0 auto;
   padding: 2.5rem 1.5rem;
   width: 60%;
-`;
+`
 
 const Inner = styled('div')`
   width: 100%;
@@ -63,7 +120,7 @@ const Inner = styled('div')`
   border-top-left-radius: 48px;
   border-bottom-right-radius: 48px;
   overflow: hidden;
-`;
+`
 
 const SectionHeading = styled('h1')`
   margin-top: 0;
@@ -78,14 +135,12 @@ const SectionHeading = styled('h1')`
     font-weight: 700;
     content: '/';
   }
-`;
+`
 
 const SpeakerList = styled('div')`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-`;
+`
 
-export default SpeakerSection;
+export default SpeakerSection

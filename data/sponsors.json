@@ -1,44 +1,60 @@
 [
   {
-    "name": "Tokopedia",
+    "name": "Hacktiv8",
     "type": "platinum",
-    "logo": "placeholder.png",
-    "url": "https://www.tokopedia.com/",
-    "background": "#8F8F8F"
+    "logo": "Logo-Hacktiv8.png",
+    "url": "https://hacktiv8.com/"
+  },
+  {
+    "name": "Microsoft",
+    "type": "platinum",
+    "logo": "microsoft.png",
+    "url": "https://www.microsoft.com/id-id/"
   },
   {
     "name": "Feedloop",
-    "type": "gold",
+    "type": "silver",
     "logo": "feedloop.svg",
     "url": "https://feedloop.io/",
-    "background": "#FFCF03"
+    "background": "#ffffff"
   },
   {
-    "name": "Ralali",
-    "type": "gold",
-    "logo": "placeholder.png",
-    "url": "https://www.ralali.com/",
-    "background": "#FFCF03"
+    "name": "HyperJump",
+    "type": "silver",
+    "logo": "hyperjump.png",
+    "url": "https://www.linkedin.com/company/hyperjump/",
+    "background": "#ffffff"
   },
   {
-    "name": "Happy Fresh",
-    "type": "gold",
+    "name": "placholder",
+    "type": "silver",
     "logo": "placeholder.png",
-    "url": "https://www.happyfresh.id/",
-    "background": "#FFCF03"
+    "url": "https://jsday.id",
+    "background": "#ffffff"
   },
   {
-    "name": "Cashbac",
-    "type": "gold",
+    "name": "placeholder",
+    "type": "silver",
     "logo": "placeholder.png",
-    "url": "https://cashbac.com/",
-    "background": "#FFCF03"
+    "url": "https://jsday.id",
+    "background": "#ffffff"
+  },
+  {
+    "name": "Shopee",
+    "type": "gold",
+    "logo": "shopee.png",
+    "url": "https://shopee.co.id/"
+  },
+  {
+    "name": "BRI",
+    "type": "gold",
+    "logo": "Logo_BRI.png",
+    "url": "https://bri.co.id/"
   },
   {
     "name": "Warung Pintar",
     "type": "gold",
-    "logo": "warungpintar.png",
-    "url": "https://warungpintar.co.id/",
-    "background": "#FFCF03"
+    "logo": "warung.png",
+    "url": "https://warungpintar.co.id/"
   }
 ]

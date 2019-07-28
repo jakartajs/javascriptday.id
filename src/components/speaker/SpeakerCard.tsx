@@ -11,7 +11,8 @@ interface SpeakerCardProps {
 
 const SpeakerCard: React.FC<SpeakerCardProps> = ({ name, company, imageSharp }) => (
   <Root>
-    {imageSharp && <Img className="avatar" alt={name} sizes={imageSharp} />}
+    {/* {imageSharp && <Img className="avatar" alt={name} sizes={imageSharp} />} */}
+    <img style={{ width: '120px', height: '120px' }} src={imageSharp} />
     <Inner>
       <Title>{name}</Title>
       {company && <Subtitle>{company}</Subtitle>}
@@ -29,6 +30,9 @@ export default SpeakerCard
 const Root = styled('header')`
   margin-bottom: 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
   .avatar {
     margin: 1.5rem auto;
@@ -41,16 +45,22 @@ const Root = styled('header')`
   }
 `
 
-const Inner = styled('div')``
+const Inner = styled('div')`
+  padding: 1.5rem;
+  justify-content: center;
+  text-align: left;
+  align-item: center';
+  width: 200px;
+`
 
-const Title = styled('h1')`
+const Title = styled('p')`
   margin: 0;
-  font-weight: 300;
+  font-weight: 700;
 `
 
 const Subtitle = styled('p')`
   margin: 0;
   margin-top: 0.5;
-  font-weight: 300;
-  font-size: ${dimensions.headingSizes.h3}rem;
+  font-weight: 200;
+  font-size: 0.8rem;
 `

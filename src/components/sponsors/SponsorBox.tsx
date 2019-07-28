@@ -12,7 +12,7 @@ interface SponsorBoxProps {
 const SponsorBox: React.FC<SponsorBoxProps> = ({ node }) => (
   <>
     <SponsorItem className={classnames(node.type)} href={node.url} title={node.name} logo={node.logo}>
-      <img alt={node.name} src={`/images/sponsors/${node.logo}`} style={{backgroundColor: `${node.background}`, padding: '10px'}} />
+      <img alt={node.name} src={`/images/sponsors/${node.logo}`} style={{backgroundColor: `${node.background}`, padding: '10px', height: '120px'}} />
     </SponsorItem>
   </>
 )

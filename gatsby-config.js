@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'JSDay Indonesia 2019',
-    description: 'A starter kit for TypeScript-based Gatsby projects with sensible defaults.',
+    description: 'JSDay hadir untuk memberikan insight dan inspirasi bagi pengembang aplikasi di Indonesia untuk dapat semakin berkembang dan terinsiprasi untuk mengembangkan aplikasi yang berkualitas tinggi, baik dari sisi performa dan juga kegunaannya.',
     siteUrl: 'https://javascriptday.id',
     author: {
       name: 'JakartaJS',

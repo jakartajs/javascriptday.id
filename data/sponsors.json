@@ -26,16 +26,16 @@
     "background": "#ffffff"
   },
   {
-    "name": "placholder",
+    "name": "bukalapak",
     "type": "silver",
-    "logo": "placeholder.png",
+    "logo": "bukalapak.png",
     "url": "https://jsday.id",
     "background": "#ffffff"
   },
   {
-    "name": "placeholder",
+    "name": "qiscus",
     "type": "silver",
-    "logo": "placeholder.png",
+    "logo": "qiscus.svg",
     "url": "https://jsday.id",
     "background": "#ffffff"
   },

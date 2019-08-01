@@ -17,9 +17,9 @@ const DataSpeaker = [
     type: 'keynote'
   },
   {
-    name: 'Yohan Toting',
-    company: 'Co-Organizer Jakarta JS',
-    photo: '/images/speakers/Yohan.jpg',
+    name: 'Riza Fahmi',
+    company: 'Curriculum Director at Hacktiv8',
+    photo: '/images/speakers/riza-fahmi.jpeg',
     type: 'keynote'
   },
   {

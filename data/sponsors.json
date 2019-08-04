@@ -15,34 +15,30 @@
     "name": "Feedloop",
     "type": "silver",
     "logo": "feedloop.svg",
-    "url": "https://feedloop.io/",
-    "background": "#ffffff"
+    "url": "https://feedloop.io/"
   },
   {
     "name": "HyperJump",
     "type": "silver",
     "logo": "hyperjump.png",
-    "url": "https://www.linkedin.com/company/hyperjump/",
-    "background": "#ffffff"
+    "url": "https://www.linkedin.com/company/hyperjump/"
   },
   {
     "name": "bukalapak",
     "type": "silver",
-    "logo": "bukalapak.png",
-    "url": "https://jsday.id",
-    "background": "#ffffff"
+    "logo": "bukalapak_new.png",
+    "url": "https://jsday.id"
   },
   {
     "name": "qiscus",
     "type": "silver",
     "logo": "qiscus.svg",
-    "url": "https://jsday.id",
-    "background": "#ffffff"
+    "url": "https://jsday.id"
   },
   {
     "name": "Shopee",
     "type": "gold",
-    "logo": "shopee.png",
+    "logo": "shopee_new.png",
     "url": "https://shopee.co.id/"
   },
   {

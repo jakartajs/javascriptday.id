@@ -18,7 +18,7 @@ const DataSpeaker = [
   },
   {
     name: 'Riza Fahmi',
-    company: 'Curriculum Director at Hacktiv8',
+    company: 'Chief Evangelist, Co-Founder at Hacktiv8 Indonesia',
     photo: '/images/speakers/riza-fahmi.jpeg',
     type: 'keynote'
   },
@@ -35,7 +35,7 @@ const DataSpeaker = [
     type: 'speaker'
   },
   {
-    name: 'Galih Sahid',
+    name: 'Galuh Sahid',
     company: 'Data Engineer Gojek',
     photo: '/images/speakers/galuh.jpg',
     type: 'speaker'
@@ -44,6 +44,12 @@ const DataSpeaker = [
     name: 'Ida Mahiswari',
     company: 'Recruitment & Employer Branding Lead Shoppe',
     photo: '/images/speakers/ida_mahes.png',
+    type: 'MC'
+  },
+  {
+    name: 'Puji Utami',
+    company: 'UX Writer Warung Pintar',
+    photo: '/images/speakers/puji.png',
     type: 'MC'
   }
 ]

@@ -7,6 +7,7 @@ import SponsorsSection, { SponsorNode } from '../components/sponsors/SponsorsSec
 import SpeakerSection from '../components/speaker/SpeakerSection'
 import HomeSection from '../components/home/HomeSection'
 import DefaultLayout from '../components/layout/DefaultLayout'
+import TicketSection from '../layouts/ticket'
 
 interface IndexPageProps {
   data: {
@@ -20,6 +21,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ data }) => (
   <DefaultLayout>
     <Page layout="home">
       <HomeSection />
+      <TicketSection />
       <SpeakerSection />
       <SponsorsSection sponsors={data.sponsors} />
     </Page>

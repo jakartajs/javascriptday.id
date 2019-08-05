@@ -3,58 +3,62 @@
     "name": "Hacktiv8",
     "type": "platinum",
     "logo": "Logo-Hacktiv8.png",
-    "url": "https://hacktiv8.com/"
+    "url": "https://hacktiv8.com/",
+    "background": "transparent"
   },
   {
     "name": "Microsoft",
     "type": "platinum",
     "logo": "microsoft.png",
-    "url": "https://www.microsoft.com/id-id/"
+    "url": "https://www.microsoft.com/id-id/",
+    "background": "transparent"
   },
   {
     "name": "Feedloop",
     "type": "silver",
     "logo": "feedloop.svg",
     "url": "https://feedloop.io/",
-    "background": "#ffffff"
+    "background": "transparent"
   },
   {
     "name": "HyperJump",
     "type": "silver",
     "logo": "hyperjump.png",
     "url": "https://www.linkedin.com/company/hyperjump/",
-    "background": "#ffffff"
+    "background": "transparent"
   },
   {
     "name": "bukalapak",
     "type": "silver",
-    "logo": "bukalapak.png",
-    "url": "https://jsday.id",
-    "background": "#ffffff"
+    "logo": "bukalapak_new.png",
+    "url": "https://www.bukalapak.com/",
+    "background": "transparent"
   },
   {
     "name": "qiscus",
     "type": "silver",
     "logo": "qiscus.svg",
-    "url": "https://jsday.id",
-    "background": "#ffffff"
+    "url": "https://www.qiscus.com/"
   },
   {
     "name": "Shopee",
     "type": "gold",
-    "logo": "shopee.png",
-    "url": "https://shopee.co.id/"
+    "logo": "shopee_new.png",
+    "url": "https://shopee.co.id/",
+    "background": "transparent"
   },
   {
     "name": "BRI",
     "type": "gold",
     "logo": "Logo_BRI.png",
-    "url": "https://bri.co.id/"
+    "url": "https://bri.co.id/",
+    "background": "transparent"
   },
   {
     "name": "Warung Pintar",
     "type": "gold",
     "logo": "warung.png",
-    "url": "https://warungpintar.co.id/"
+    "url": "https://warungpintar.co.id/",
+    "background": "transparent"
   }
 ]

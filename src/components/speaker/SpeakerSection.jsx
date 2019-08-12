@@ -42,7 +42,7 @@ const DataSpeaker = [
   },
   {
     name: 'Ida Mahiswari',
-    company: 'Recruitment & Employer Branding Lead Shoppe',
+    company: 'Recruitment & Employer Branding Lead Shopee',
     photo: '/images/speakers/ida_mahes.png',
     type: 'MC'
   },

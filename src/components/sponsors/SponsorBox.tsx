@@ -12,7 +12,11 @@ interface SponsorBoxProps {
 const SponsorBox: React.FC<SponsorBoxProps> = ({ node }) => (
   <>
     <SponsorItem className={classnames(node.type)} href={node.url} title={node.name} logo={node.logo}>
-      <img alt={node.name} src={`/images/sponsors/${node.logo}`} style={{backgroundColor: `${node.background}`, padding: '10px', height: '120px'}} />
+      <img
+        alt={node.name}
+        src={`/images/sponsors/${node.logo}`}
+        style={{ backgroundColor: `${node.background}`, padding: '10px', height: '120px' }}
+      />
     </SponsorItem>
   </>
 )
@@ -27,9 +31,10 @@ const SponsorItem = styled<'a', Partial<SponsorNode>>('a')`
   flex-shrink: 0;
   background: transparent no-repeat 50% / contain;
   background-origin: content-box;
+  margin-bottom: 16px;
 
   &.platinum {
-    height: 180px;
+    height: 200px;
     width: 290px;
   }
 
@@ -41,5 +46,13 @@ const SponsorItem = styled<'a', Partial<SponsorNode>>('a')`
   &.silver {
     height: 130px;
     width: 210px;
+  }
+  &.community {
+    height: 110px;
+    width: 180px;
+  }
+  &.venue {
+    height: 120px;
+    width: 200px;
   }
 `

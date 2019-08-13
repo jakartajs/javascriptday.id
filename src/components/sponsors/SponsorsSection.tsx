@@ -41,6 +41,8 @@ const SponsorsSection: React.FC<SponsorsSectionProps> = ({ sponsors }) => (
       {renderSection(sponsors.edges, 'Platinum')}
       {renderSection(sponsors.edges, 'Gold')}
       {renderSection(sponsors.edges, 'Silver')}
+      {renderSection(sponsors.edges, 'Venue')}
+      {renderSection(sponsors.edges, 'Community')}
     </Inner>
     <CTAArea>
       <Button
@@ -82,6 +84,7 @@ const Inner = styled('div')`
   max-width: ${widths.lg}px;
   margin: 0 auto;
   padding: 36px 24px;
+  height: 100%;
   background-color: ${colors.grey05};
   border-top-right-radius: 16px;
   border-bottom-left-radius: 16px;
@@ -105,11 +108,12 @@ const SectionHeading = styled('h1')`
   }
 `
 
-const SponsorHeading = styled('h2')`
+const SponsorHeading = styled('h3')`
   margin-top: 16px;
   margin-bottom: 0px;
   font-weight: 300;
   text-align: center;
+  color: #94908f;
 `
 
 const SponsorList = styled('div')`

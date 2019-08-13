@@ -41,6 +41,36 @@ const DataSpeaker = [
     type: 'speaker'
   },
   {
+    name: 'Adityo Pratomo',
+    company: 'CTO Labtek Indie',
+    photo: '/images/speakers/adityo.jpeg',
+    type: 'speaker'
+  },
+  {
+    name: 'Evan Purnama',
+    company: 'Co-Founder, CTO Qiscus',
+    photo: '/images/speakers/evan.jpeg',
+    type: 'speaker'
+  },
+  {
+    name: 'Rheza Satria',
+    company: 'Head of Digital Experience at Bank Rakyat Indonesia',
+    photo: '/images/speakers/rheza.jpeg',
+    type: 'speaker'
+  },
+  {
+    name: 'Diky Arga Anggara',
+    company: 'Frontend Developer at Bukalapak',
+    photo: '/images/speakers/diky.jpeg',
+    type: 'speaker'
+  },
+  {
+    name: 'Aditya Satrya',
+    company: 'Head of IT Development at Jabar Digital Service',
+    photo: '/images/speakers/adityasatria.jpeg',
+    type: 'speaker'
+  },
+  {
     name: 'Ida Mahiswari',
     company: 'Recruitment & Employer Branding Lead Shopee',
     photo: '/images/speakers/ida_mahes.png',

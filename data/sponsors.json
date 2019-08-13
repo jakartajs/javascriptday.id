@@ -60,5 +60,33 @@
     "logo": "warung.png",
     "url": "https://warungpintar.co.id/",
     "background": "transparent"
+  },
+  {
+    "name": "Vidio.com",
+    "type": "venue",
+    "logo": "vidio.svg",
+    "url": "https://www.vidio.com/",
+    "background": "transparent"
+  },
+  {
+    "name": "Deep Tech",
+    "type": "community",
+    "logo": "dt.png",
+    "url": "https://www.linkedin.com/company/deep-tech-id/",
+    "background": "transparent"
+  },
+  {
+    "name": "Ruby Id",
+    "type": "community",
+    "logo": "logo-ruby.png",
+    "url": "https://ruby.id/",
+    "background": "transparent"
+  },
+  {
+    "name": "Facebook DevC",
+    "type": "community",
+    "logo": "logo-devc.png",
+    "url": "https://www.facebook.com/groups/DevCJakarta/",
+    "background": "transparent"
   }
 ]

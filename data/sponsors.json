@@ -23,7 +23,7 @@
   {
     "name": "HyperJump",
     "type": "silver",
-    "logo": "hyperjump.png",
+    "logo": "hyperjump_new.png",
     "url": "https://www.linkedin.com/company/hyperjump/",
     "background": "transparent"
   },
@@ -62,6 +62,13 @@
     "background": "transparent"
   },
   {
+    "name": "Pomona",
+    "type": "silver",
+    "logo": "pomona.png",
+    "url": "https://web.pomona.id/",
+    "background": "transparent"
+  },
+  {
     "name": "Vidio.com",
     "type": "venue",
     "logo": "vidio.svg",
@@ -87,6 +94,13 @@
     "type": "community",
     "logo": "logo-devc.png",
     "url": "https://www.facebook.com/groups/DevCJakarta/",
+    "background": "transparent"
+  },
+  {
+    "name": "GeekHunter",
+    "type": "community",
+    "logo": "geekhunter.png",
+    "url": "https://geekhunter.co/",
     "background": "transparent"
   }
 ]

@@ -6,14 +6,16 @@ import { dimensions } from '../../styles/variables'
 interface SpeakerCardProps {
   name: string
   company?: string
+  topic: string
   imageSharp?: FluidObject
 }
 
-const SpeakerCard: React.FC<SpeakerCardProps> = ({ name, company, imageSharp }) => (
+const SpeakerCard: React.FC<SpeakerCardProps> = ({ name, company, imageSharp, topic }) => (
   <Root>
     {/* {imageSharp && <Img className="avatar" alt={name} sizes={imageSharp} />} */}
-    <img style={{ width: '120px', height: '120px' }} src={imageSharp} />
+    <img style={{ width: '120px', height: '120px', marginLeft: '1.5rem' , objectFit:'cover'}} src={imageSharp} alt={name} />
     <Inner>
+      <Topic>{topic}</Topic>
       <Title>{name}</Title>
       {company && <Subtitle>{company}</Subtitle>}
     </Inner>
@@ -46,16 +48,24 @@ const Root = styled('header')`
 `
 
 const Inner = styled('div')`
-  padding: 1.5rem;
+  padding: 0 1.5rem;
   justify-content: center;
   text-align: left;
   align-item: center';
-  width: 200px;
+  width: 240px;
 `
 
 const Title = styled('p')`
   margin: 0;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 1rem;
+`
+
+const Topic = styled('p')`
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 10px 0px;
 `
 
 const Subtitle = styled('p')`

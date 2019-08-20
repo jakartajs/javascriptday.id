@@ -8,67 +8,78 @@ const DataSpeaker = [
     name: 'Ariya Hidayat',
     company: 'Technology Leader Hyperjump',
     photo: '/images/speakers/ariya.jpg',
-    type: 'keynote'
+    type: 'keynote',
+    topic: 'To Be Confirm'
   },
   {
     name: 'Irvin Hutagalung',
     company: 'Cloud Solution Architect Microsoft',
     photo: '/images/speakers/irvin.jpeg',
-    type: 'keynote'
+    type: 'keynote',
+    topic: 'Leveraging Cloud Building Blocks to Create High-Perf Web App'
   },
   {
     name: 'Riza Fahmi',
     company: 'Chief Evangelist, Co-Founder at Hacktiv8 Indonesia',
     photo: '/images/speakers/riza-fahmi.jpeg',
-    type: 'keynote'
+    type: 'keynote',
+    topic: 'Building a Fast & SEO Friendly SPA with Angular'
   },
   {
     name: 'Alex Lakatos',
     company: 'JavaScript Developer Advocate for Nexmo',
     photo: '/images/speakers/alex.png',
-    type: 'speaker'
+    type: 'speaker',
+    topic: 'Hands on Performance Debugging with the browser DevTools'
   },
   {
     name: 'Jecelyn Yeen',
     company: 'Developer Expert Web, Angular Google Developer Expert',
     photo: '/images/speakers/jecelin.jpeg',
-    type: 'speaker'
+    type: 'speaker',
+    topic: 'Building a Fast & SEO Friendly SPA with Angular'
   },
   {
     name: 'Galuh Sahid',
     company: 'Data Engineer Gojek',
     photo: '/images/speakers/galuh.jpg',
-    type: 'speaker'
+    type: 'speaker',
+    topic: 'Machine Learning on the Web'
   },
   {
     name: 'Adityo Pratomo',
-    company: 'CTO Labtek Indie',
+    company: 'UX Designer di Tetrate',
     photo: '/images/speakers/adityo.jpeg',
-    type: 'speaker'
+    type: 'speaker',
+    topic: 'Designing with Code'
   },
   {
     name: 'Evan Purnama',
     company: 'Co-Founder, CTO Qiscus',
     photo: '/images/speakers/evan.jpeg',
-    type: 'speaker'
+    type: 'speaker',
+    topic: 'Understanding Concurrency in Node JS'
   },
   {
     name: 'Rheza Satria',
-    company: 'Head of Digital Experience at Bank Rakyat Indonesia',
+    company: 'Head of Future Banking Platform, Bank Rakyat Indonesia',
     photo: '/images/speakers/rheza.jpeg',
-    type: 'speaker'
+    type: 'speaker',
+    topic: 'Building a Fast & SEO Friendly SPA with Angular'
   },
   {
     name: 'Diky Arga Anggara',
     company: 'Frontend Developer at Bukalapak',
-    photo: '/images/speakers/diky.jpeg',
-    type: 'speaker'
+    photo: '/images/speakers/diky-new.jpg',
+    type: 'speaker',
+    topic: 'Micro Frontend: A journey shifting monolith to micro FE'
   },
   {
     name: 'Aditya Satrya',
     company: 'Head of IT Development at Jabar Digital Service',
     photo: '/images/speakers/adityasatria.jpeg',
-    type: 'speaker'
+    type: 'speaker',
+    topic: 'How to Build 12-Factor Application in NodeJS using Docker'
   },
   {
     name: 'Ida Mahiswari',
@@ -89,7 +100,7 @@ const renderSpeaker = type => {
   return filter.length !== 0 ? (
     <SpeakerList>
       {filter.map(data => (
-        <SpeakerCard name={data.name} company={data.company} imageSharp={data.photo}></SpeakerCard>
+        <SpeakerCard topic={data.topic} name={data.name} company={data.company} imageSharp={data.photo}></SpeakerCard>
       ))}
     </SpeakerList>
   ) : null
@@ -142,7 +153,7 @@ const SpeakerHeading = styled('h1')`
 const Root = styled('section')`
   margin: 0 auto;
   padding: 2.5rem 1.5rem;
-  width: 60%;
+  width: 65%;
 `
 
 const Inner = styled('div')`

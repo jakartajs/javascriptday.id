@@ -23,7 +23,7 @@ const DataSpeaker = [
     company: 'Chief Evangelist, Co-Founder at Hacktiv8 Indonesia',
     photo: '/images/speakers/riza-fahmi.jpeg',
     type: 'keynote',
-    topic: 'Building a Fast & SEO Friendly SPA with Angular'
+    topic: 'Ekosistem JavaScript di Indonesia'
   },
   {
     name: 'Alex Lakatos',
@@ -65,7 +65,7 @@ const DataSpeaker = [
     company: 'Head of Future Banking Platform, Bank Rakyat Indonesia',
     photo: '/images/speakers/rheza.jpeg',
     type: 'speaker',
-    topic: 'Building a Fast & SEO Friendly SPA with Angular'
+    topic: 'Microservice Pattern with Workflow Engine using NodeJS'
   },
   {
     name: 'Diky Arga Anggara',

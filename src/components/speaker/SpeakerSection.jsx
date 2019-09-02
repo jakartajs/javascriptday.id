@@ -9,7 +9,7 @@ const DataSpeaker = [
     company: 'Technology Leader Hyperjump',
     photo: '/images/speakers/ariya.jpg',
     type: 'keynote',
-    topic: 'To Be Confirm'
+    topic: 'Unggul & Berdikari dengan Open-source'
   },
   {
     name: 'Irvin Hutagalung',

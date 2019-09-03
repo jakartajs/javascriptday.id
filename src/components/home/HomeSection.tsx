@@ -84,11 +84,6 @@ const HomeSection: React.SFC<HomeSection> = ({ className }) => (
             <Link to="/about/">About</Link>
           </li>
           <li>
-            <a href="https://www.loket.com/event/ruby-confid-jsday-2019-wa1" target="_blank" rel="noopener noreferrer">
-              Get Tickets
-            </a>
-          </li>
-          <li>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSdZGVphPcskVQL5J5TWmiovyV0wTPR1zWcCl3xxzXiUT2A3UA/viewform"
               target="_blank"

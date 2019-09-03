@@ -8,9 +8,7 @@ const TicketSection = () => {
       <SpeakerHeading>Ticket</SpeakerHeading>
       <SubHeading>Join the first javascript conference in Indonesia with hundreds of other application developers. </SubHeading>
       <CTAArea>
-        <Button href="https://www.loket.com/event/ruby-confid-jsday-2019-wa1" rel="noopener noreferrer" target="_blank">
-          GET TICKETS
-        </Button>
+        <Button>SOLD OUT</Button>
       </CTAArea>
     </Root>
   )

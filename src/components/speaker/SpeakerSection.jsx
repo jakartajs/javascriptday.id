@@ -12,7 +12,7 @@ const DataSpeaker = [
     topic: 'Unggul & Berdikari dengan Open-source'
   },
   {
-    name: 'Irvin Hutagalung',
+    name: 'Irving Hutagalung',
     company: 'Cloud Solution Architect Microsoft',
     photo: '/images/speakers/irvin.jpeg',
     type: 'keynote',

@@ -80,7 +80,7 @@ const Header: React.SFC<HeaderProps> = ({ title }) => (
       </HomepageLink>
       <HeaderNav>
         <Link to="/about">About</Link>
-        <Link to="/call-for-cfp/">Call for paper</Link>
+        <Link to="/call-for-cfp/">Schedule</Link>
         <Link to="/code-of-conduct">Code of Conduct</Link>
       </HeaderNav>
     </HeaderInner>
